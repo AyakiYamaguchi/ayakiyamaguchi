@@ -1,0 +1,381 @@
+@charset "UTF-8";
+/* line 5, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/style.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 8, ../sass/style.scss */
+body {
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+/* line 15, ../sass/style.scss */
+.header_name {
+  background-color: #4CB2D4;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 22, ../sass/style.scss */
+.header_name img {
+  height: 16px;
+}
+
+@media screen and (min-width: 960px) {
+  /* line 28, ../sass/style.scss */
+  .header_name {
+    height: 75px;
+  }
+  /* line 31, ../sass/style.scss */
+  .header_name img {
+    height: 24px;
+  }
+}
+/* line 37, ../sass/style.scss */
+.header_menu {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 45, ../sass/style.scss */
+.header_menu ul {
+  list-style: none;
+  font-size: 1.4rem;
+}
+/* line 49, ../sass/style.scss */
+.header_menu ul li {
+  display: inline-block;
+  padding: 0 8px;
+}
+/* line 53, ../sass/style.scss */
+.header_menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 960px) {
+  /* line 63, ../sass/style.scss */
+  .header_menu {
+    height: 65px;
+  }
+  /* line 66, ../sass/style.scss */
+  .header_menu ul {
+    font-size: 1.8rem;
+  }
+  /* line 69, ../sass/style.scss */
+  .header_menu ul li {
+    padding: 0 20px;
+  }
+}
+/* line 78, ../sass/style.scss */
+.top {
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 86, ../sass/style.scss */
+.top-inner img {
+  height: 24px;
+}
+/* line 90, ../sass/style.scss */
+.top-inner p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 960px) {
+  /* line 98, ../sass/style.scss */
+  .top {
+    height: 400px;
+  }
+
+  /* line 103, ../sass/style.scss */
+  .top-inner img {
+    height: 32px;
+  }
+  /* line 107, ../sass/style.scss */
+  .top-inner p {
+    font-size: 1.4rem;
+  }
+}
+/* line 115, ../sass/style.scss */
+.container {
+  padding: 0 10%;
+}
+/* line 118, ../sass/style.scss */
+.container h2 {
+  text-align: center;
+}
+/* line 121, ../sass/style.scss */
+.container h2 img {
+  height: 28px;
+}
+/* line 126, ../sass/style.scss */
+.container h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* line 133, ../sass/style.scss */
+.container p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+/* line 139, ../sass/style.scss */
+.content-wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 144, ../sass/style.scss */
+.background-gray {
+  background-color: #F8F8F8;
+}
+
+@media screen and (min-width: 960px) {
+  /* line 152, ../sass/style.scss */
+  .container h2 img {
+    height: 36px;
+  }
+  /* line 157, ../sass/style.scss */
+  .container P {
+    font-size: 1.6rem;
+  }
+
+  /* line 162, ../sass/style.scss */
+  .content-wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+/* line 170, ../sass/style.scss */
+.skills-item {
+  text-align: center;
+  margin-top: 35px;
+}
+/* line 174, ../sass/style.scss */
+.skills-item img {
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 960px) {
+  /* line 181, ../sass/style.scss */
+  .skills_item-wrapper {
+    display: flex;
+  }
+
+  /* line 185, ../sass/style.scss */
+  .skills-item {
+    margin-top: 45px;
+    width: 33.3333%;
+    padding: 0 5%;
+  }
+}
+/* line 194, ../sass/style.scss */
+.works_item {
+  margin-top: 45px;
+}
+/* line 197, ../sass/style.scss */
+.works_item img {
+  width: 100%;
+  cursor: pointer;
+}
+/* line 202, ../sass/style.scss */
+.works_item img:hover {
+  opacity: 0.7;
+}
+/* line 206, ../sass/style.scss */
+.works_item p {
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 960px) {
+  /* line 212, ../sass/style.scss */
+  .works_item-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* line 217, ../sass/style.scss */
+  .works_item {
+    width: 33.333333%;
+    padding: 0 5%;
+  }
+}
+/* line 225, ../sass/style.scss */
+.about_text {
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+/* line 230, ../sass/style.scss */
+.profile_img {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+/* line 234, ../sass/style.scss */
+.profile_img img {
+  width: 70%;
+}
+
+/* line 239, ../sass/style.scss */
+.contact_text {
+  margin-top: 20px;
+}
+/* line 242, ../sass/style.scss */
+.contact_text p {
+  text-align: center;
+}
+/* line 246, ../sass/style.scss */
+.contact_text table {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+/* line 249, ../sass/style.scss */
+.contact_text table td {
+  font-size: 1.4rem;
+  text-align: center;
+  width: 40%;
+  height: 16px;
+}
+/* line 257, ../sass/style.scss */
+.contact_text .sns_name {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 960px) {
+  /* line 263, ../sass/style.scss */
+  .about-wrapper {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* line 269, ../sass/style.scss */
+  .about_text {
+    width: 30%;
+    margin-top: 0;
+  }
+
+  /* line 274, ../sass/style.scss */
+  .profile_img {
+    margin-top: 0;
+    width: 30%;
+  }
+}
+/* line 282, ../sass/style.scss */
+.footer_menu {
+  height: 60px;
+  background-color: #4CB2D4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 289, ../sass/style.scss */
+.footer_menu ul {
+  list-style: none;
+  font-size: 1.4rem;
+}
+/* line 293, ../sass/style.scss */
+.footer_menu ul li {
+  display: inline-block;
+  padding: 0 8px;
+}
+/* line 297, ../sass/style.scss */
+.footer_menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 960px) {
+  /* line 307, ../sass/style.scss */
+  .footer_menu {
+    height: 75px;
+  }
+  /* line 310, ../sass/style.scss */
+  .footer_menu ul {
+    font-size: 1.8rem;
+  }
+  /* line 313, ../sass/style.scss */
+  .footer_menu ul li {
+    padding: 0 20px;
+  }
+}
