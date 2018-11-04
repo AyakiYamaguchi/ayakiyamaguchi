@@ -15,3 +15,11 @@ $(function(){
       return false;
    });
 });
+
+$(document).ready(function() {
+ $('#top').fadeIn(2000);
+});
+
+$(document).ready(function() {
+ $('.container').fadeIn(4000);
+});
