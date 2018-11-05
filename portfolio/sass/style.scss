@@ -227,6 +227,31 @@ body {
   }
 }
 
+//------------ Blog area ------------//
+.blog-wrapper {
+  text-align: center;
+
+  iframe {
+    display: inline-block;
+    width: 100%;
+    max-width: 768px;
+  }
+
+  .note-embed{
+    margin-top: 45px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .blog-wrapper {
+
+    .note-embed {
+      width: 33.3333%;
+      padding: 0 5%;
+    }
+  }
+}
+
 //------------ About area ------------//
 
 .about_text {
