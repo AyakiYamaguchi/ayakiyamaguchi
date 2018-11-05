@@ -289,12 +289,12 @@ body {
 /* line 231, ../sass/style.scss */
 .blog-wrapper {
   text-align: center;
+  width: 100%;
 }
-/* line 234, ../sass/style.scss */
+/* line 235, ../sass/style.scss */
 .blog-wrapper iframe {
   display: inline-block;
   width: 100%;
-  max-width: 768px;
 }
 /* line 240, ../sass/style.scss */
 .blog-wrapper .note-embed {

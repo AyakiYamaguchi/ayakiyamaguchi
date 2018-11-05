@@ -230,11 +230,11 @@ body {
 //------------ Blog area ------------//
 .blog-wrapper {
   text-align: center;
+  width: 100%;
 
   iframe {
     display: inline-block;
     width: 100%;
-    max-width: 768px;
   }
 
   .note-embed{
